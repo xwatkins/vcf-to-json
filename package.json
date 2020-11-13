@@ -1,0 +1,30 @@
+{
+  "name": "vcf-to-json",
+  "version": "1.0.0",
+  "description": "A simple parser to convert VCF files to JSON",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "vcf",
+    "bioinformatics",
+    "json"
+  ],
+  "author": "Xavier Watkins <xwatkins@ebi.ac.uk>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "typescript": "^4.0.5"
+  }
+}
