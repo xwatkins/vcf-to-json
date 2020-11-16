@@ -101,3 +101,16 @@ export interface Name {
   fullName: string;
   shortName?: string[];
 }
+
+export interface VCFJSON {
+  chrom: string;
+  pos: number;
+  id?: string;
+  ref?: string;
+  alt?: string;
+  qual?: string;
+  filter?: string;
+  info?: ({ [x: string]: string } | null)[] | null;
+  format?: string;
+  sampleData?: string[];
+}

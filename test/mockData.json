@@ -1,0 +1,5823 @@
+{
+  "accession": "P01008",
+  "name": "ANT3_HUMAN",
+  "taxid": 9606,
+  "sequence": "MYSNVIGTVTSGKRKVYLLSLLLIGFWDCVTCHGSPVDICTAKPRDIPMNPMCIYRSPEKKATEDEGSEQKIPEATNRRVWELSKANSRFATTFYQHLADSKNDNDNIFLSPLSISTAFAMTKLGACNDTLQQLMEVFKFDTISEKTSDQIHFFFAKLNCRLYRKANKSSKLVSANRLFGDKSLTFNETYQDISELVYGAKLQPLDFKENAEQSRAAINKWVSNKTEGRITDVIPSEAINELTVLVLVNTIYFKGLWKSKFSPENTRKELFYKADGESCSASMMYQEGKFRYRRVAEGTQVLELPFKGDDITMVLILPKPEKSLAKVEKELTPEVLQEWLDELEEMMLVVHMPRFRIEDGFSLKEQLQDMGLVDLFSPEKSKLPGIVAEGRDDLYVSDAFHKAFLEVNEEGSEAAASTAVVIAGRSLNPNRVTFKANRPFLVFIREVPLNTIIFMGRVANPCVK",
+  "protein": {
+    "recommendedName": {
+      "fullName": "Antithrombin-III",
+      "shortName": ["ATIII"]
+    },
+    "alternativeName": [
+      {
+        "fullName": "Serpin C1"
+      }
+    ]
+  },
+  "gene": [
+    {
+      "value": "SERPINC1",
+      "type": "primary"
+    },
+    {
+      "value": "AT3",
+      "type": "synonym"
+    },
+    {
+      "value": "PRO0309",
+      "type": "ORF"
+    }
+  ],
+  "gnCoordinate": [
+    {
+      "genomicLocation": {
+        "exon": [
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 1,
+                "status": "certain"
+              },
+              "end": {
+                "position": 14,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173917259,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173917219,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00001944151"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 14,
+                "status": "certain"
+              },
+              "end": {
+                "position": 136,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173914919,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173914553,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00003578986"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 137,
+                "status": "certain"
+              },
+              "end": {
+                "position": 208,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173912014,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173911799,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00003644352"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 209,
+                "status": "certain"
+              },
+              "end": {
+                "position": 254,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173910891,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173910754,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00000789909"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 255,
+                "status": "certain"
+              },
+              "end": {
+                "position": 385,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173909942,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173909552,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00000789908"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 385,
+                "status": "certain"
+              },
+              "end": {
+                "position": 406,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173907514,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173907450,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00001383315"
+          },
+          {
+            "proteinLocation": {
+              "begin": {
+                "position": 407,
+                "status": "certain"
+              },
+              "end": {
+                "position": 464,
+                "status": "certain"
+              }
+            },
+            "genomeLocation": {
+              "begin": {
+                "position": 173904065,
+                "status": "certain"
+              },
+              "end": {
+                "position": 173903892,
+                "status": "certain"
+              }
+            },
+            "id": "ENSE00001876994"
+          }
+        ],
+        "chromosome": "1",
+        "start": 173917259,
+        "end": 173903892,
+        "reverseStrand": true
+      },
+      "feature": [
+        {
+          "location": {
+            "begin": {
+              "position": 378,
+              "status": "certain"
+            },
+            "end": {
+              "position": 380,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909573,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909565,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 79,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; Tours/Alger/Amiens/Toyama/Paris-1/Paris-2/Padua-2/Barcelona-2/Kumamoto/Omura/Sasebo; lacks heparin-binding ability; dbSNP:rs121909547.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "6582486",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007037",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914726,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914724,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 120,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914603,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914601,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 273,
+              "status": "certain"
+            },
+            "end": {
+              "position": 307,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7878627",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007061",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909888,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909784,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 278,
+              "status": "certain"
+            },
+            "end": {
+              "position": 294,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909873,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909823,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 293,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071204",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909828,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909826,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 44,
+              "status": "certain"
+            },
+            "end": {
+              "position": 46,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914831,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914823,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 388,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907506,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907504,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 240,
+              "status": "certain"
+            },
+            "end": {
+              "position": 242,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1DZG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910798,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910790,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["Y"],
+          "location": {
+            "position": {
+              "position": 214,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs483352854.",
+          "type": "sequence variant",
+          "id": "VAR_007057",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910876,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910874,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 179,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "15164384",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027459",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911888,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911886,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 323,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "type": "sequence variant",
+          "id": "VAR_027469",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909738,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909736,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 198,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I and -II; Whitechapel; dbSNP:rs1425532034.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007056",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911831,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911829,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 167,
+              "status": "certain"
+            }
+          },
+          "description": "N-linked (GlcNAc...) asparagine.",
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "glycosylation site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911924,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911922,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "N",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 167,
+              "status": "certain"
+            }
+          },
+          "description": "in dbSNP:rs121909570.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10361121",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_012750",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911924,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911922,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 151,
+              "status": "certain"
+            },
+            "end": {
+              "position": 166,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911972,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911925,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 170,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071201",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911915,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911913,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 432,
+              "status": "certain"
+            },
+            "end": {
+              "position": 435,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903990,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903979,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 414,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Hamilton/Glasgow-2; reduces interaction with thrombin by 90%; dbSNP:rs121909557.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2013320",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7734359",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "3179438",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007069",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904044,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904042,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["V"],
+          "location": {
+            "position": {
+              "position": 419,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs121909568.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007072",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904029,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904027,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "H",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 401,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071205",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907467,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907465,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "W",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 257,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027466",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909936,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909934,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "N",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 219,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Glasgow-3.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007058",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910861,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910859,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "T",
+          "variation": ["A"],
+          "location": {
+            "position": {
+              "position": 226,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910840,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910838,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 1,
+              "status": "certain"
+            },
+            "end": {
+              "position": 32,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "signal peptide",
+          "genomeLocation": {
+            "begin": {
+              "position": 173917259,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914865,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 148,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Nagasaki; defective heparin binding associated with thrombosis; dbSNP:rs121909569.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "8443391",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007049",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911981,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911979,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "C",
+          "variation": ["F"],
+          "location": {
+            "position": {
+              "position": 53,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071199",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914804,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914802,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 140,
+              "status": "certain"
+            },
+            "end": {
+              "position": 142,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2B5T",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173912005,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911997,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 108,
+              "status": "certain"
+            },
+            "end": {
+              "position": 110,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914639,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914631,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 279,
+              "status": "certain"
+            },
+            "end": {
+              "position": 462,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "disulfide bond",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909870,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903898,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "I",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 251,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs1423630663.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027465",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910765,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910763,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 236,
+              "status": "certain"
+            },
+            "end": {
+              "position": 239,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2B4X",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910810,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910799,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "G",
+          "variation": ["D"],
+          "location": {
+            "position": {
+              "position": 125,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071200",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914588,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914586,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 40,
+              "status": "certain"
+            },
+            "end": {
+              "position": 160,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "disulfide bond",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914843,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911943,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "M",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 52,
+              "status": "certain"
+            }
+          },
+          "description": "previously Whitechapel; dbSNP:rs892712171.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007034",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914807,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914805,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["S"],
+          "location": {
+            "position": {
+              "position": 434,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Torino.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007079",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903984,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903982,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "I",
+          "variation": ["N"],
+          "location": {
+            "position": {
+              "position": 218,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071202",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910864,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910862,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "C",
+          "variation": ["Y"],
+          "location": {
+            "position": {
+              "position": 160,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7981186",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027457",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911945,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911943,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["D"],
+          "location": {
+            "position": {
+              "position": 459,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007090",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903909,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903907,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 263,
+              "status": "certain"
+            },
+            "end": {
+              "position": 265,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909918,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909910,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 451,
+              "status": "certain"
+            },
+            "end": {
+              "position": 459,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903933,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903907,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 226,
+              "status": "certain"
+            },
+            "end": {
+              "position": 228,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910840,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910832,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 344,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "type": "sequence variant",
+          "id": "VAR_007066",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909675,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909673,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 128,
+              "status": "certain"
+            },
+            "end": {
+              "position": 137,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914579,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173912012,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 381,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs121909565.",
+          "type": "sequence variant",
+          "id": "VAR_007067",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909564,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909562,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "C",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 32,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027451",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914867,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914865,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 257,
+              "status": "certain"
+            },
+            "end": {
+              "position": 259,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909936,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909928,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "V",
+          "variation": ["G"],
+          "location": {
+            "position": {
+              "position": 248,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071203",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910774,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910772,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 302,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "type": "sequence variant",
+          "id": "VAR_007063",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909801,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909799,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "E",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 269,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Truro; increases affinity for heparin; dbSNP:rs758087836.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007060",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909900,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909898,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 218,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027462",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910864,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910862,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 78,
+              "status": "certain"
+            },
+            "end": {
+              "position": 101,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914729,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914658,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 439,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Utah; deprived of inhibitory activity; dbSNP:rs121909555.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "3191114",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007084",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903969,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903967,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 95,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs907768931.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027452",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914678,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914676,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 223,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs121909572.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "11713457",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027463",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910849,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910847,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 344,
+              "status": "certain"
+            },
+            "end": {
+              "position": 353,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909675,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909646,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "G",
+          "variation": ["D"],
+          "location": {
+            "position": {
+              "position": 424,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Stockholm; dbSNP:rs121909566.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "1547341",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007073",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904014,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904012,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["G"],
+          "location": {
+            "position": {
+              "position": 438,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type I and type-II.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_009258",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903972,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903970,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 188,
+              "status": "certain"
+            },
+            "end": {
+              "position": 198,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911861,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911829,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 138,
+              "status": "certain"
+            },
+            "end": {
+              "position": 139,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "8486379",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007048",
+          "genomeLocation": {
+            "begin": {
+              "position": 173912011,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173912006,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["H"],
+          "location": {
+            "position": {
+              "position": 425,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Glasgow/Sheffield/Chicago/Avranches/Kumamoto-2; increases affinity for heparin; deprived of inhibitory activity; dbSNP:rs121909549.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2781509",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "3162733",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "12894857",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7832187",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007074",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904011,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904009,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "H",
+          "variation": ["Y"],
+          "location": {
+            "position": {
+              "position": 152,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7959685",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007051",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911969,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911967,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 177,
+              "status": "certain"
+            }
+          },
+          "description": "Heparin.",
+          "type": "binding site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911894,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911892,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 161,
+              "status": "certain"
+            }
+          },
+          "description": "Heparin.",
+          "type": "binding site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911942,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911940,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 397,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027470",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907479,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907477,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["Q"],
+          "location": {
+            "position": {
+              "position": 391,
+              "status": "certain"
+            }
+          },
+          "description": "in dbSNP:rs201541724.",
+          "type": "sequence variant",
+          "id": "VAR_007068",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907497,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907495,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 425,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; dbSNP:rs121909554.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3162733",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "12894857",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "15164384",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007075",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904011,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904009,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 457,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007088",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903915,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903913,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "C",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 127,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs121909573.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9157604",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027455",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914582,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914580,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 152,
+              "status": "certain"
+            },
+            "end": {
+              "position": 154,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "11794707",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_012749",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911969,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911961,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 414,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2013320",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "mutagenesis site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904044,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904042,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 153,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "type": "sequence variant",
+          "id": "VAR_007052",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911966,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911964,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 128,
+              "status": "certain"
+            }
+          },
+          "description": "N-linked (GlcNAc...) asparagine.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "14760718",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "16335952",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "19159218",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "glycosylation site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914579,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914577,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 112,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7959685",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007044",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914627,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914625,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "I",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 453,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7994035",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007086",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903927,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903925,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "N",
+          "variation": ["NN"],
+          "location": {
+            "position": {
+              "position": 77,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914732,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914730,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 374,
+              "status": "certain"
+            },
+            "end": {
+              "position": 376,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909585,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909577,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "V",
+          "variation": ["E"],
+          "location": {
+            "position": {
+              "position": 30,
+              "status": "certain"
+            }
+          },
+          "description": "in Dublin; dbSNP:rs2227624.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1977621",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007032",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914873,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914871,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 224,
+              "status": "certain"
+            }
+          },
+          "description": "N-linked (GlcNAc...) asparagine.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "16335952",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "16263699",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "glycosylation site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910846,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910844,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 190,
+              "status": "certain"
+            }
+          },
+          "description": "polymorphism in population of Scandinavian origin.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7959685",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007055",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911855,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911853,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 63,
+              "status": "certain"
+            }
+          },
+          "description": "Phosphothreonine; by FAM20C.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "26091039",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "modified residue",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914774,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914772,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 274,
+              "status": "certain"
+            },
+            "end": {
+              "position": 276,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2B5T",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909885,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909877,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 104,
+              "status": "certain"
+            },
+            "end": {
+              "position": 106,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1DZG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914651,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914643,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 68,
+              "status": "certain"
+            }
+          },
+          "description": "Phosphoserine; by FAM20C.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "26091039",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "24275569",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "modified residue",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914759,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914757,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 440,
+              "status": "certain"
+            },
+            "end": {
+              "position": 446,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903966,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903946,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["M"],
+          "location": {
+            "position": {
+              "position": 438,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Kyoto.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007083",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903972,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903970,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "K",
+          "variation": ["E"],
+          "location": {
+            "position": {
+              "position": 146,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; Dreux; complete loss af heparin binding; dbSNP:rs1170430756.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "12353073",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027456",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911987,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911985,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 81,
+              "status": "certain"
+            }
+          },
+          "description": "Heparin.",
+          "type": "binding site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914720,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914718,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "E",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 334,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007065",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909705,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909703,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 247,
+              "status": "certain"
+            },
+            "end": {
+              "position": 249,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910777,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910769,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "D",
+          "variation": ["H"],
+          "location": {
+            "position": {
+              "position": 398,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "16908819",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027471",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907476,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907474,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "T",
+          "variation": ["A"],
+          "location": {
+            "position": {
+              "position": 147,
+              "status": "certain"
+            }
+          },
+          "description": "in dbSNP:rs2227606.",
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_013085",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911984,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911982,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "I",
+          "variation": ["N"],
+          "location": {
+            "position": {
+              "position": 39,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rouen-3; lack of heparin-binding properties; dbSNP:rs121909558.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007033",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914846,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914844,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 389,
+              "status": "certain"
+            },
+            "end": {
+              "position": 392,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907503,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907492,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 51,
+              "status": "certain"
+            },
+            "end": {
+              "position": 53,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1OYH",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914810,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914802,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 158,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007053",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911951,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911949,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 296,
+              "status": "certain"
+            },
+            "end": {
+              "position": 298,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909819,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909811,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["S"],
+          "location": {
+            "position": {
+              "position": 17,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027450",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914912,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914910,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "M",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 121,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "12894857",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027454",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914600,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914598,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["Q"],
+          "location": {
+            "position": {
+              "position": 161,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Geneva; dbSNP:rs121909563.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "2229057",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007054",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911942,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911940,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 203,
+              "status": "certain"
+            },
+            "end": {
+              "position": 205,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911816,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911808,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 23,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; does not undergo post-translational glycosylation; dbSNP:rs387906575.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9845533",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_012748",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914894,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914892,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 324,
+              "status": "certain"
+            },
+            "end": {
+              "position": 329,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909735,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909718,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 167,
+              "status": "certain"
+            },
+            "end": {
+              "position": 169,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911924,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911916,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 416,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Charleville/Sudbury/Vicenza/Cambridge-1; dbSNP:rs121909548.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007070",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904038,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904036,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "N",
+          "variation": ["D"],
+          "location": {
+            "position": {
+              "position": 219,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rouen-6; increases affinity for heparin; dbSNP:rs121909571.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "7989582",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007059",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910861,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910859,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["V"],
+          "location": {
+            "position": {
+              "position": 131,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Southport.",
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007046",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914570,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914568,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 187,
+              "status": "certain"
+            }
+          },
+          "description": "N-linked (GlcNAc...) (complex) asparagine.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "19838169",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "15084671",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "16335952",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "14760718",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "19159218",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "glycosylation site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911864,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911862,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["YA"],
+          "location": {
+            "position": {
+              "position": 395,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907485,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907483,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Q",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 133,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type I; dbSNP:rs1411331203.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007047",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914564,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914562,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "M",
+          "variation": ["V"],
+          "location": {
+            "position": {
+              "position": 283,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027468",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909858,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909856,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 426,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Denver/Milano-2; deprived of inhibitory activity; dbSNP:rs121909550.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "15164384",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "3805013",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007077",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904008,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904006,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 145,
+              "status": "certain"
+            },
+            "end": {
+              "position": 149,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911990,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911976,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "G",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 456,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "8274732",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007087",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903918,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903916,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "position": {
+              "position": 87,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007040",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914702,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914700,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 423,
+              "status": "certain"
+            },
+            "end": {
+              "position": 426,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904017,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904006,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 170,
+              "status": "certain"
+            },
+            "end": {
+              "position": 181,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911915,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911880,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "T",
+          "variation": ["I"],
+          "location": {
+            "position": {
+              "position": 243,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027464",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910789,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910787,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 245,
+              "status": "certain"
+            },
+            "end": {
+              "position": 255,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910783,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909940,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "N",
+          "variation": ["K"],
+          "location": {
+            "position": {
+              "position": 437,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; La Rochelle; dbSNP:rs1301351856.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007082",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903975,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903973,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["F"],
+          "location": {
+            "position": {
+              "position": 131,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Budapest-3/Budapest-7; dbSNP:rs121909567.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1555650",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007045",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914570,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914568,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["A"],
+          "location": {
+            "position": {
+              "position": 439,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_071206",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903969,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903967,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Q",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 150,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Vienna; dbSNP:rs765445413.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007050",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911975,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911973,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "C",
+          "variation": ["F"],
+          "location": {
+            "position": {
+              "position": 462,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7994035",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007092",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903900,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903898,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 267,
+              "status": "certain"
+            },
+            "end": {
+              "position": 272,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909906,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909889,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 89,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; dbSNP:rs147266200.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007041",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914696,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914694,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 398,
+              "status": "certain"
+            },
+            "end": {
+              "position": 407,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173907476,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904063,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 441,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; dbSNP:rs1188571702.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "12894857",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027473",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903963,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903961,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 425,
+              "status": "certain"
+            },
+            "end": {
+              "position": 426,
+              "status": "certain"
+            }
+          },
+          "description": "Reactive bond.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7238875",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904011,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904006,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 56,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rouen-4; lack of heparin-binding properties; dbSNP:rs28929469.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "2365065",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007035",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914795,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914793,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["H"],
+          "location": {
+            "position": {
+              "position": 198,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027460",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911831,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911829,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 320,
+              "status": "certain"
+            },
+            "end": {
+              "position": 322,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2B5T",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909747,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909739,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "H",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 97,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914672,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914670,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "Y",
+          "variation": ["S"],
+          "location": {
+            "position": {
+              "position": 95,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7994035",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_012316",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914678,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914676,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 207,
+              "status": "certain"
+            },
+            "end": {
+              "position": 225,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911804,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910841,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 108,
+              "status": "certain"
+            },
+            "end": {
+              "position": 109,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "type": "sequence variant",
+          "id": "VAR_007043",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914639,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914634,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["F"],
+          "location": {
+            "position": {
+              "position": 214,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "10997988",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027461",
+          "genomeLocation": {
+            "begin": {
+              "position": 173910876,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173910874,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "I",
+          "variation": ["N"],
+          "location": {
+            "position": {
+              "position": 316,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Haslar/Whitechapel.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007064",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909759,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909757,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 333,
+              "status": "certain"
+            },
+            "end": {
+              "position": 342,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909708,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909679,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["H"],
+          "location": {
+            "position": {
+              "position": 178,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "12894857",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027458",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911891,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911889,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 425,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Pescara; deprived of inhibitory of activity; dbSNP:rs121909549.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007076",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904011,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904009,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 436,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Oslo/Paris-3; dbSNP:rs121909546.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007081",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903978,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903976,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["Q"],
+          "location": {
+            "position": {
+              "position": 414,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2013320",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "mutagenesis site",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904044,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904042,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["S"],
+          "location": {
+            "position": {
+              "position": 79,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rouen-2; lack of heparin-binding properties; dbSNP:rs121909547.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007039",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914726,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914724,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 355,
+              "status": "certain"
+            },
+            "end": {
+              "position": 362,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909642,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909619,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 309,
+              "status": "certain"
+            },
+            "end": {
+              "position": 317,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909780,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909754,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 461,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Budapest; dbSNP:rs121909564.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007091",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903903,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903901,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 261,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "12595305",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027467",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909924,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909922,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 434,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Maisons-Laffite.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007080",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903984,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903982,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["T"],
+          "location": {
+            "position": {
+              "position": 439,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Budapest-5; dbSNP:rs1487411568.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007085",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903969,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903967,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 300,
+              "status": "certain"
+            },
+            "end": {
+              "position": 306,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909807,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909787,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "S",
+          "variation": ["R"],
+          "location": {
+            "position": {
+              "position": 412,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027472",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904050,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904048,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "M",
+          "variation": ["I"],
+          "location": {
+            "position": {
+              "position": 283,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7959685",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007062",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909858,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909856,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "A",
+          "variation": ["S"],
+          "location": {
+            "position": {
+              "position": 416,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Cambridge-2; dbSNP:rs121909548.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1906811",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007071",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904038,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904036,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "EQ",
+          "variation": ["QE"],
+          "location": {
+            "begin": {
+              "position": 69,
+              "status": "certain"
+            },
+            "end": {
+              "position": 70,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000305"
+            }
+          ],
+          "type": "sequence conflict",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914756,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914751,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 419,
+              "status": "certain"
+            },
+            "end": {
+              "position": 422,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1E04",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904029,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904018,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 39,
+              "status": "certain"
+            },
+            "end": {
+              "position": 41,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914846,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914838,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 447,
+              "status": "certain"
+            },
+            "end": {
+              "position": 450,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903945,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903934,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 112,
+              "status": "certain"
+            },
+            "end": {
+              "position": 123,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914627,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914592,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 459,
+              "status": "certain"
+            },
+            "end": {
+              "position": 461,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "type": "sequence variant",
+          "id": "VAR_007089",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903909,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903901,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "R",
+          "variation": ["H"],
+          "location": {
+            "position": {
+              "position": 79,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rouen-1/Padua-1/Bligny/Budapest-2; lack of heparin-binding properties; dbSNP:rs121909552.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "7981186",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007038",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914726,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914724,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 409,
+              "status": "certain"
+            },
+            "end": {
+              "position": 413,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "2B5T",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173904059,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173904045,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 364,
+              "status": "certain"
+            },
+            "end": {
+              "position": 369,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "helix",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909615,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173909598,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 184,
+              "status": "certain"
+            },
+            "end": {
+              "position": 186,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "1E04",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "strand",
+          "genomeLocation": {
+            "begin": {
+              "position": 173911873,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173911865,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "P",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 73,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; lacks heparin-binding ability; dbSNP:rs121909551.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "23910795",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9759613",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "3080419",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            },
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007036",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914744,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914742,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "L",
+          "variation": ["P"],
+          "location": {
+            "position": {
+              "position": 98,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_027453",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914669,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914667,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["C"],
+          "location": {
+            "position": {
+              "position": 434,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-II; Rosny.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007078",
+          "genomeLocation": {
+            "begin": {
+              "position": 173903984,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173903982,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 384,
+              "status": "certain"
+            },
+            "end": {
+              "position": 386,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "3KCG",
+                "type": "PDB"
+              },
+              "code": "ECO:0000244"
+            }
+          ],
+          "type": "turn",
+          "genomeLocation": {
+            "begin": {
+              "position": 173909555,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173907510,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "location": {
+            "begin": {
+              "position": 53,
+              "status": "certain"
+            },
+            "end": {
+              "position": 127,
+              "status": "certain"
+            }
+          },
+          "evidence": [
+            {
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "disulfide bond",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914804,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914580,
+              "status": "certain"
+            }
+          }
+        },
+        {
+          "original": "F",
+          "variation": ["L"],
+          "location": {
+            "position": {
+              "position": 90,
+              "status": "certain"
+            }
+          },
+          "description": "in AT3D; type-I; Budapest-6.",
+          "evidence": [
+            {
+              "dbReference": {
+                "id": "9031473",
+                "type": "PubMed"
+              },
+              "code": "ECO:0000269"
+            }
+          ],
+          "type": "sequence variant",
+          "id": "VAR_007042",
+          "genomeLocation": {
+            "begin": {
+              "position": 173914693,
+              "status": "certain"
+            },
+            "end": {
+              "position": 173914691,
+              "status": "certain"
+            }
+          }
+        }
+      ],
+      "ensemblGeneId": "ENSG00000117601",
+      "ensemblTranscriptId": "ENST00000367698",
+      "ensemblTranslationId": "ENSP00000356671"
+    }
+  ]
+}

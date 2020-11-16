@@ -1,27 +1,73 @@
 import * as fs from "fs";
 import * as readline from "readline";
 import axios from "axios";
-import { Coordinates, Exon } from "./types";
+import { Coordinates, GenomicLocation, VCFJSON } from "./types";
 
 const fetchMappings = async (accession: string) => {
   const url = `https://www.ebi.ac.uk/proteins/api/coordinates/${accession}`;
   const response = await axios.get<Coordinates>(url, {
     headers: { Accept: "application/json" },
   });
-  return response.data.gnCoordinate[0].genomicLocation.exon;
+  // TODO handle error
+  // TODO handle multiple gnCoordinate
+  return response.data.gnCoordinate[0].genomicLocation;
 };
 
-const getProteinPositions = (genomeLocation: number, exons: Exon[]) => {
-  const exonMatch = exons.find(
-    (exon) =>
-      exon.genomeLocation.begin.position >= genomeLocation &&
-      exon.genomeLocation.end.position <= genomeLocation
-  );
-  if (!exonMatch) {
-    return;
+const getProteinPositions = (
+  genomeLocation: number,
+  genomicLocation: GenomicLocation
+) => {
+  const { exon, reverseStrand } = genomicLocation;
+  let found = false;
+
+  // TODO make sure exons are ordered correctly
+  // TODO take `reverseStrand` into account
+  const offset = exon.reduce((previousItem, currentItem) => {
+    const isInFurtherExon =
+      genomeLocation > currentItem.genomeLocation.end.position;
+    const isInCurrentExon =
+      currentItem.genomeLocation.begin.position <= genomeLocation &&
+      currentItem.genomeLocation.end.position >= genomeLocation;
+    if (isInFurtherExon) {
+      return (
+        previousItem +
+        currentItem.genomeLocation.begin.position -
+        currentItem.genomeLocation.end.position -
+        1
+      );
+    } else if (isInCurrentExon) {
+      found = true;
+      return previousItem + currentItem.genomeLocation.begin.position - 1;
+    }
+    return previousItem;
+  }, 0);
+
+  if (offset === 0 || !found) {
+    throw new Error(`Position '${genomeLocation}' not found`);
   }
-  const offSet = genomeLocation - exonMatch?.genomeLocation.begin.position;
-  return exonMatch?.proteinLocation.begin.position + offSet;
+  // Take the rounded up value
+  const protValue = Math.ceil((genomeLocation - offset) / 3);
+  return protValue;
+};
+
+const parseInfo = (info?: string) => {
+  if (!info) {
+    return null;
+  }
+  const infoArray = info.split(";");
+  return (
+    infoArray
+      .map((infoItem) => {
+        // NOTE: should maybe use a regex here?
+        const splitItem = infoItem.split(/=/);
+        if (splitItem.length < 2) {
+          return null;
+        }
+        return { [splitItem[0]]: splitItem[1].replace(/"/g, "") };
+      })
+      // Filter out null
+      .filter((item) => item)
+  );
 };
 
 const readLines = async (filePath: fs.PathLike) => {
@@ -46,25 +92,54 @@ const readLines = async (filePath: fs.PathLike) => {
      * sample plus some associated data.
      * */
     const columns = line.split(/\t/g);
-    const rowJSON = {
+    const rowJSON: VCFJSON = {
       chrom: columns[0],
-      pos: new Number(columns[1]),
-      id: columns[2],
-      ref: columns[3],
-      alt: columns[4],
-      qual: columns[5],
-      filter: columns[6],
-      info: columns[7],
-      format: columns[8],
-      sampleData: columns.filter((item, i) => i > 8),
+      pos: parseInt(columns[1]),
     };
+    if (columns[2]) {
+      rowJSON["id"] = columns[2];
+    }
+    if (columns[3]) {
+      rowJSON["ref"] = columns[3];
+    }
+    if (columns[4]) {
+      rowJSON["alt"] = columns[4];
+    }
+    if (columns[5]) {
+      rowJSON["qual"] = columns[5];
+    }
+    if (columns[6]) {
+      rowJSON["filter"] = columns[6];
+    }
+    if (columns[7]) {
+      rowJSON["info"] = parseInfo(columns[7]);
+    }
+    if (columns[8]) {
+      rowJSON["format"] = columns[8];
+    }
+    if (columns.length > 8) {
+      rowJSON["sampleData"] = columns.filter((item, i) => {
+        return item.length && i > 8;
+      });
+    }
     jsonArray.push(rowJSON);
   }
   return jsonArray;
 };
 
-export const vcfToJSON = async (filePath: fs.PathLike, accession: string) => {
+export const vcfToJSON = async (
+  filePath: fs.PathLike,
+  options: { accession?: string }
+) => {
+  const { accession } = options;
   const jsonArray = await readLines(filePath);
-  const exons = await fetchMappings(accession);
-  return jsonArray.map((row) => getProteinPositions(row.pos, exons));
+  let genomicLocation: GenomicLocation;
+  if (accession) {
+    genomicLocation = await fetchMappings(accession);
+  }
+  return jsonArray.map((row) => ({
+    ...row,
+    proteinPos:
+      genomicLocation && getProteinPositions(row.pos, genomicLocation),
+  }));
 };
