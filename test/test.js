@@ -18,7 +18,7 @@ const mock = new MockAdapter(axios);
 mock.onGet().reply(200, mockData);
 
 describe("vcfToJSON function test", () => {
-  it.skip("should parse file correctly and get protein coordinates", async () => {
+  it("should parse file correctly and get protein coordinates", async () => {
     const json = await index.vcfToJSON("./examples/example_format_1.vcf", {
       accession: "P01008",
     });
@@ -67,12 +67,12 @@ describe("vcfToJSON function test", () => {
   });
 
   it("should map not map coordinates outside of the lower range", () => {
-    const positions = () => getProteinPositions(0, exons);
-    expect(positions).to.throw("Position '0' not found");
+    const positions = getProteinPositions(0, exons);
+    expect(positions).to.be.null;
   });
 
   it("should map not map coordinates outside of the higher range", () => {
-    const positions = () => getProteinPositions(70, exons);
-    expect(positions).to.throw("Position '70' not found");
+    const positions = getProteinPositions(70, exons);
+    expect(positions).to.be.null;
   });
 });

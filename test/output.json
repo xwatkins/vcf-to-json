@@ -16,7 +16,8 @@
       { "PROT": "NP_000479.1%3Ap.A436D" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.25" }
-    ]
+    ],
+    "proteinPos": 29
   },
   {
     "chrom": "1",
@@ -46,7 +47,8 @@
       { "RS": "121909546" }
     ],
     "format": "hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1306G>A;PROT=NP_000479.1%3Ap.A436T;DB=rs121909546;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.6; ",
-    "sampleData": []
+    "sampleData": [],
+    "proteinPos": 29
   },
   {
     "chrom": "1",
@@ -65,7 +67,8 @@
       { "PROT": "NP_000479.1%3Ap.F434L" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.57" }
-    ]
+    ],
+    "proteinPos": 31
   },
   {
     "chrom": "1",
@@ -84,7 +87,8 @@
       { "PROT": "NP_000479.1%3Ap.F434C" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.91" }
-    ]
+    ],
+    "proteinPos": 31
   },
   {
     "chrom": "1",
@@ -103,7 +107,8 @@
       { "PROT": "NP_000479.1%3Ap.F434S" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.86" }
-    ]
+    ],
+    "proteinPos": 31
   },
   {
     "chrom": "1",
@@ -122,7 +127,8 @@
       { "PROT": "NP_000479.1%3Ap.T433S" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.11" }
-    ]
+    ],
+    "proteinPos": 32
   },
   {
     "chrom": "1",
@@ -140,7 +146,8 @@
       { "DNA": "NM_000488.3%3Ac.1295_1296insCT" },
       { "PROT": "NP_000479.1%3Ap.(Thr433*)" },
       { "PHEN": "Antithrombin_deficiency" }
-    ]
+    ],
+    "proteinPos": 33
   },
   {
     "chrom": "1",
@@ -158,7 +165,8 @@
       { "DNA": "NM_000488.3%3Ac.1294dupG" },
       { "PROT": "NP_000479.1%3Ap.(Val432Glyfs*33)" },
       { "PHEN": "Antithrombin_deficiency" }
-    ]
+    ],
+    "proteinPos": 33
   },
   {
     "chrom": "1",
@@ -177,7 +185,8 @@
       { "PROT": "NP_000479.1%3Ap.N430D" },
       { "PHEN": "Antithrombin_deficiency" },
       { "RANKSCORE": "0.19" }
-    ]
+    ],
+    "proteinPos": 35
   },
   {
     "chrom": "1",
@@ -207,6 +216,7 @@
       { "RS": "121909550" }
     ],
     "format": "hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1277C>T;PROT=NP_000479.1%3Ap.S426L;DB=rs121909550;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.77; ",
-    "sampleData": []
+    "sampleData": [],
+    "proteinPos": 39
   }
 ]

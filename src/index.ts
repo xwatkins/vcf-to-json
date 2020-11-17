@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as readline from "readline";
 import axios from "axios";
-import { Coordinates, GenomicLocation, VCFJSON } from "./types";
+import { BeginEnd, Coordinates, GenomicLocation, VCFJSON } from "./types";
 
 const fetchMappings = async (accession: string) => {
   const url = `https://www.ebi.ac.uk/proteins/api/coordinates/${accession}`;
@@ -20,30 +20,37 @@ const getProteinPositions = (
   const { exon, reverseStrand } = genomicLocation;
   let found = false;
 
+  let begin = BeginEnd.BEGIN;
+  let end = BeginEnd.END;
+
+  if (reverseStrand) {
+    begin = BeginEnd.END;
+    end = BeginEnd.BEGIN;
+  }
+
   // TODO make sure exons are ordered correctly
-  // TODO take `reverseStrand` into account
   const offset = exon.reduce((previousItem, currentItem) => {
     const isInFurtherExon =
-      genomeLocation > currentItem.genomeLocation.end.position;
+      genomeLocation > currentItem.genomeLocation[end].position;
     const isInCurrentExon =
-      currentItem.genomeLocation.begin.position <= genomeLocation &&
-      currentItem.genomeLocation.end.position >= genomeLocation;
+      currentItem.genomeLocation[begin].position <= genomeLocation &&
+      currentItem.genomeLocation[end].position >= genomeLocation;
     if (isInFurtherExon) {
       return (
         previousItem +
-        currentItem.genomeLocation.begin.position -
-        currentItem.genomeLocation.end.position -
+        currentItem.genomeLocation[begin].position -
+        currentItem.genomeLocation[end].position -
         1
       );
     } else if (isInCurrentExon) {
       found = true;
-      return previousItem + currentItem.genomeLocation.begin.position - 1;
+      return previousItem + currentItem.genomeLocation[begin].position - 1;
     }
     return previousItem;
   }, 0);
 
   if (offset === 0 || !found) {
-    throw new Error(`Position '${genomeLocation}' not found`);
+    return null;
   }
   // Take the rounded up value
   const protValue = Math.ceil((genomeLocation - offset) / 3);

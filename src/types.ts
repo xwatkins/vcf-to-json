@@ -34,36 +34,25 @@ export interface Feature {
 
 export interface Evidence {
   dbReference?: DBReference;
-  code: Code;
-}
-
-export enum Code {
-  Eco0000244 = "ECO:0000244",
-  Eco0000250 = "ECO:0000250",
-  Eco0000255 = "ECO:0000255",
-  Eco0000269 = "ECO:0000269",
-  Eco0000303 = "ECO:0000303",
-  Eco0000305 = "ECO:0000305",
+  code: string;
 }
 
 export interface DBReference {
   id: string;
-  type: Type;
+  type: string;
 }
 
-export enum Type {
-  PROSITEProRule = "PROSITE-ProRule",
-  Pdb = "PDB",
-  PubMed = "PubMed",
-  UniProtKB = "UniProtKB",
+export enum BeginEnd {
+  BEGIN = "begin",
+  END = "end",
 }
 
 export interface Location {
-  begin: Begin;
-  end: Begin;
+  [BeginEnd.BEGIN]: Position;
+  [BeginEnd.END]: Position;
 }
 
-export interface Begin {
+export interface Position {
   position: number;
   status: Status;
 }
@@ -73,9 +62,9 @@ export enum Status {
 }
 
 export interface LocationClass {
-  position?: Begin;
-  begin?: Begin;
-  end?: Begin;
+  position?: Position;
+  begin?: Position;
+  end?: Position;
 }
 
 export interface GenomicLocation {
