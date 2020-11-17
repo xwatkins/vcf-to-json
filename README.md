@@ -1,16 +1,16 @@
-#VCF to JSON converter
+# VCF to JSON converter
 A module to parse [Variant Call Format (VCF)](https://en.wikipedia.org/wiki/Variant_Call_Format) into JSON. An optional parameter allows to map the genomic coordinates to the protein coordinates using the [UniProt Coordinates API](https://www.ebi.ac.uk/proteins/api/doc/).
 
-##Installation
+## Installation
 `npm i --save vcftojson`
 
-##API
+## API
 1. fileContent:
 2. options
   - *accession*: a UniProt identifier used to fetch and map the coordinates
 
-##Usage
-###From a node script:
+## Usage
+### From a node script:
 ```
 import {vcfToJSON} from 'vcftojson`;
 
