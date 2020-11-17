@@ -19,6 +19,7 @@ const getProteinPositions = (
 ) => {
   const { exon, reverseStrand } = genomicLocation;
   let found = false;
+  let offset = 0;
 
   let begin = BeginEnd.BEGIN;
   let end = BeginEnd.END;
@@ -29,25 +30,25 @@ const getProteinPositions = (
   }
 
   // TODO make sure exons are ordered correctly
-  const offset = exon.reduce((previousItem, currentItem) => {
-    const isInFurtherExon =
-      genomeLocation > currentItem.genomeLocation[end].position;
-    const isInCurrentExon =
-      currentItem.genomeLocation[begin].position <= genomeLocation &&
-      currentItem.genomeLocation[end].position >= genomeLocation;
-    if (isInFurtherExon) {
-      return (
-        previousItem +
+  for (const currentItem of exon) {
+    // Further exon
+    if (genomeLocation > currentItem.genomeLocation[end].position) {
+      offset +=
         currentItem.genomeLocation[begin].position -
         currentItem.genomeLocation[end].position -
-        1
-      );
-    } else if (isInCurrentExon) {
-      found = true;
-      return previousItem + currentItem.genomeLocation[begin].position - 1;
+        1;
     }
-    return previousItem;
-  }, 0);
+    // Current exon
+    else if (
+      currentItem.genomeLocation[begin].position <= genomeLocation &&
+      currentItem.genomeLocation[end].position >= genomeLocation
+    ) {
+      offset += currentItem.genomeLocation[begin].position - 1;
+      // exit from loop early
+      found = true;
+      break;
+    }
+  }
 
   if (offset === 0 || !found) {
     return null;
