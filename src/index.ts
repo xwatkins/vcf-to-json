@@ -1,5 +1,3 @@
-import * as fs from "fs";
-import * as readline from "readline";
 import axios from "axios";
 import { BeginEnd, Coordinates, GenomicLocation, VCFJSON } from "./types";
 
@@ -78,18 +76,12 @@ const parseInfo = (info?: string) => {
   );
 };
 
-const readLines = async (filePath: fs.PathLike) => {
-  const fileStream = fs.createReadStream(filePath);
+const readLines = (fileContents: string) => {
   const jsonArray = [];
 
-  const rl = readline.createInterface({
-    input: fileStream,
-    crlfDelay: Infinity,
-  });
-  // Note: we use the crlfDelay option to recognize all instances of CR LF
-  // ('\r\n') in input.txt as a single line break.
+  const rl = fileContents.split(/\r?\n/g);
 
-  for await (const line of rl) {
+  for (const line of rl) {
     if (line.startsWith("#")) {
       // Note: could check the column headers here
       continue;
@@ -136,11 +128,11 @@ const readLines = async (filePath: fs.PathLike) => {
 };
 
 export const vcfToJSON = async (
-  filePath: fs.PathLike,
+  vcf: string,
   options: { accession?: string }
 ) => {
   const { accession } = options;
-  const jsonArray = await readLines(filePath);
+  const jsonArray = readLines(vcf);
   let genomicLocation: GenomicLocation;
   if (accession) {
     genomicLocation = await fetchMappings(accession);

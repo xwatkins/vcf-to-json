@@ -1,4 +1,5 @@
 "use strict";
+const fs = require("fs");
 const expect = require("chai").expect;
 const index = require("../dist/index.js");
 const rewire = require("rewire");
@@ -19,7 +20,11 @@ mock.onGet().reply(200, mockData);
 
 describe("vcfToJSON function test", () => {
   it("should parse file correctly and get protein coordinates", async () => {
-    const json = await index.vcfToJSON("./examples/example_format_1.vcf", {
+    const fileContent = await fs.readFileSync(
+      "./examples/example_format_1.vcf",
+      { encoding: "utf-8" }
+    );
+    const json = await index.vcfToJSON(fileContent, {
       accession: "P01008",
     });
     expect(json).to.eql(output);
