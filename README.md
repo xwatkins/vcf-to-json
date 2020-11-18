@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ebi-uniprot/vcf-to-json.svg?branch=master)](https://travis-ci.org/ebi-uniprot/vcf-to-json)
+
 # VCF to JSON converter
 A module to parse [Variant Call Format (VCF)](https://en.wikipedia.org/wiki/Variant_Call_Format) into JSON. An optional parameter allows to map the genomic coordinates to the protein coordinates using the [UniProt Coordinates API](https://www.ebi.ac.uk/proteins/api/doc/).
 
