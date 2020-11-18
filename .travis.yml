@@ -4,8 +4,8 @@ node_js:
   - "stable"
 
 install:
-  - npm ci
-  - npm run build
+  - yarn
+  - yarn run build
 
 script:
-  - npm run test
+  - yarn run test
