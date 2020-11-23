@@ -1,23 +1,5 @@
 [
   {
-    "vcfLine": "1\t173903977\t.\tG\tT\t.\thgmdAll;\thgmdAll:CLASS=DM?;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1307C>A;PROT=NP_000479.1%3Ap.A436D;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.25; ",
-    "chrom": "1",
-    "pos": 173903977,
-    "id": ".",
-    "ref": "G",
-    "alt": "T",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM?" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1307C>A" },
-      { "PROT": "NP_000479.1%3Ap.A436D" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.25" }
-    ],
     "regulatory_feature_consequences": [
       {
         "consequence_terms": ["regulatory_region_variant"],
@@ -55,6 +37,7 @@
     "assembly_name": "GRCh38",
     "input": "1 173903977 . G T . hgmdAll; hgmdAll:CLASS=DM?;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1307C>A;PROT=NP_000479.1%3Ap.A436D;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.25;",
     "end": 173903977,
+    "id": ".",
     "transcript_consequences": [
       {
         "polyphen_prediction": "probably_damaging",
@@ -127,35 +110,6 @@
     ]
   },
   {
-    "vcfLine": "1\t173903978\t.\tC\tT\t.\tClinVarAll;hgmdAll;\tClinVarAll:ALLELEID=33042;CLNDISDB=Human_Phenotype_Ontology:HP:0001976,MONDO:MONDO:0013144,MedGen:C0272375,OMIM:613118,Orphanet:ORPHA82,SNOMED_CT:36351005;CLNDN=Antithrombin_III_deficiency;CLNHGVS=NC_000001.11:g.173903978C>T;CLNREVSTAT=criteria_provided,_single_submitter;CLNSIG=Pathogenic;CLNVC=single_nucleotide_variant;CLNVCSO=SO:0001483;CLNVI=OMIM_Allelic_Variant:107300.0001|UniProtKB_(protein):P01008#VAR_007081;GENEINFO=SERPINC1:462;MC=SO:0001583|missense_variant;ORIGIN=1;RS=121909546; \thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1306G>A;PROT=NP_000479.1%3Ap.A436T;DB=rs121909546;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.6; ",
-    "chrom": "1",
-    "pos": 173903978,
-    "id": ".",
-    "ref": "C",
-    "alt": "T",
-    "qual": ".",
-    "filter": "ClinVarAll;hgmdAll;",
-    "info": [
-      { "ClinVarAll:ALLELEID": "33042" },
-      {
-        "CLNDISDB": "Human_Phenotype_Ontology:HP:0001976,MONDO:MONDO:0013144,MedGen:C0272375,OMIM:613118,Orphanet:ORPHA82,SNOMED_CT:36351005"
-      },
-      { "CLNDN": "Antithrombin_III_deficiency" },
-      { "CLNHGVS": "NC_000001.11:g.173903978C>T" },
-      { "CLNREVSTAT": "criteria_provided,_single_submitter" },
-      { "CLNSIG": "Pathogenic" },
-      { "CLNVC": "single_nucleotide_variant" },
-      { "CLNVCSO": "SO:0001483" },
-      {
-        "CLNVI": "OMIM_Allelic_Variant:107300.0001|UniProtKB_(protein):P01008#VAR_007081"
-      },
-      { "GENEINFO": "SERPINC1:462" },
-      { "MC": "SO:0001583|missense_variant" },
-      { "ORIGIN": "1" },
-      { "RS": "121909546" }
-    ],
-    "format": "hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1306G>A;PROT=NP_000479.1%3Ap.A436T;DB=rs121909546;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.6; ",
-    "sampleData": [],
     "strand": 1,
     "allele_string": "C/T",
     "start": 173903978,
@@ -168,6 +122,7 @@
         "variant_allele": "T"
       }
     ],
+    "id": ".",
     "transcript_consequences": [
       {
         "gene_symbol": "SERPINC1",
@@ -273,24 +228,6 @@
     ]
   },
   {
-    "vcfLine": "1\t173903982\t.\tG\tT\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1302C>A;PROT=NP_000479.1%3Ap.F434L;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.57; ",
-    "chrom": "1",
-    "pos": 173903982,
-    "id": ".",
-    "ref": "G",
-    "alt": "T",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1302C>A" },
-      { "PROT": "NP_000479.1%3Ap.F434L" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.57" }
-    ],
     "start": 173903982,
     "allele_string": "G/T",
     "regulatory_feature_consequences": [
@@ -318,7 +255,9 @@
         "start": 173903982
       },
       {
-        "var_synonyms": { "COSMIC": ["COSM5984473"] },
+        "var_synonyms": {
+          "COSMIC": ["COSM5984473"]
+        },
         "start": 173903982,
         "id": "COSV62929352",
         "end": 173903982,
@@ -399,27 +338,120 @@
         "cds_start": 687
       }
     ],
+    "id": ".",
     "end": 173903982
   },
   {
-    "vcfLine": "1\t173903983\t.\tA\tC\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1301T>G;PROT=NP_000479.1%3Ap.F434C;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.91; ",
-    "chrom": "1",
-    "pos": 173903983,
-    "id": ".",
-    "ref": "A",
-    "alt": "C",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1301T>G" },
-      { "PROT": "NP_000479.1%3Ap.F434C" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.91" }
+    "allele_string": "A/C",
+    "start": 173903983,
+    "regulatory_feature_consequences": [
+      {
+        "biotype": "enhancer",
+        "consequence_terms": ["regulatory_region_variant"],
+        "variant_allele": "C",
+        "regulatory_feature_id": "ENSR00000377682",
+        "impact": "MODIFIER"
+      }
     ],
+    "strand": 1,
+    "input": "1 173903983 . A C . hgmdAll; hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1301T>G;PROT=NP_000479.1%3Ap.F434C;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.91;",
+    "seq_region_name": "1",
+    "most_severe_consequence": "missense_variant",
+    "assembly_name": "GRCh38",
+    "colocated_variants": [
+      {
+        "allele_string": "HGMD_MUTATION",
+        "phenotype_or_disease": 1,
+        "strand": 1,
+        "seq_region_name": "1",
+        "id": "CM910060",
+        "end": 173903983,
+        "start": 173903983
+      },
+      {
+        "seq_region_name": "1",
+        "id": "CM910061",
+        "end": 173903983,
+        "allele_string": "HGMD_MUTATION",
+        "phenotype_or_disease": 1,
+        "strand": 1,
+        "start": 173903983
+      }
+    ],
+    "id": ".",
+    "transcript_consequences": [
+      {
+        "protein_end": 434,
+        "codons": "tTc/tGc",
+        "sift_prediction": "deleterious",
+        "transcript_id": "ENST00000367698",
+        "trembl": ["A0A024R944"],
+        "cds_end": 1301,
+        "polyphen_score": 0.998,
+        "swissprot": ["P01008"],
+        "cds_start": 1301,
+        "polyphen_prediction": "probably_damaging",
+        "gene_symbol": "SERPINC1",
+        "strand": -1,
+        "impact": "MODERATE",
+        "variant_allele": "C",
+        "sift_score": 0,
+        "biotype": "protein_coding",
+        "consequence_terms": ["missense_variant"],
+        "protein_start": 434,
+        "cdna_start": 1420,
+        "gene_id": "ENSG00000117601",
+        "amino_acids": "F/C",
+        "gene_symbol_source": "HGNC",
+        "uniparc": ["UPI000002C0C1"],
+        "hgnc_id": "HGNC:775",
+        "cdna_end": 1420
+      },
+      {
+        "distance": 434,
+        "gene_symbol": "ZBTB37",
+        "transcript_id": "ENST00000367701",
+        "strand": 1,
+        "variant_allele": "C",
+        "impact": "MODIFIER",
+        "biotype": "protein_coding",
+        "consequence_terms": ["downstream_gene_variant"],
+        "gene_symbol_source": "HGNC",
+        "swissprot": ["Q5TC79"],
+        "gene_id": "ENSG00000185278",
+        "uniparc": ["UPI0000203C09"],
+        "hgnc_id": "HGNC:28365"
+      },
+      {
+        "cds_start": 686,
+        "trembl": ["Q8TCE1"],
+        "cds_end": 686,
+        "polyphen_score": 0.999,
+        "sift_prediction": "deleterious",
+        "transcript_id": "ENST00000617423",
+        "protein_end": 229,
+        "codons": "tTc/tGc",
+        "uniparc": ["UPI00000725AD"],
+        "hgnc_id": "HGNC:775",
+        "cdna_end": 805,
+        "cdna_start": 805,
+        "gene_id": "ENSG00000117601",
+        "amino_acids": "F/C",
+        "gene_symbol_source": "HGNC",
+        "consequence_terms": ["missense_variant"],
+        "protein_start": 229,
+        "biotype": "protein_coding",
+        "sift_score": 0,
+        "impact": "MODERATE",
+        "variant_allele": "C",
+        "strand": -1,
+        "gene_symbol": "SERPINC1",
+        "polyphen_prediction": "probably_damaging"
+      }
+    ],
+    "end": 173903983
+  },
+  {
     "strand": 1,
     "allele_string": "A/G",
     "start": 173903983,
@@ -503,6 +535,7 @@
         "biotype": "protein_coding"
       }
     ],
+    "id": ".",
     "most_severe_consequence": "missense_variant",
     "assembly_name": "GRCh38",
     "seq_region_name": "1",
@@ -529,152 +562,8 @@
     "input": "1 173903983 . A G . hgmdAll; hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1301T>C;PROT=NP_000479.1%3Ap.F434S;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.86;"
   },
   {
-    "vcfLine": "1\t173903983\t.\tA\tG\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1301T>C;PROT=NP_000479.1%3Ap.F434S;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.86; ",
-    "chrom": "1",
-    "pos": 173903983,
-    "id": ".",
-    "ref": "A",
-    "alt": "G",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1301T>C" },
-      { "PROT": "NP_000479.1%3Ap.F434S" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.86" }
-    ],
-    "strand": 1,
-    "allele_string": "A/G",
-    "start": 173903983,
-    "regulatory_feature_consequences": [
-      {
-        "regulatory_feature_id": "ENSR00000377682",
-        "impact": "MODIFIER",
-        "variant_allele": "G",
-        "consequence_terms": ["regulatory_region_variant"],
-        "biotype": "enhancer"
-      }
-    ],
-    "end": 173903983,
-    "transcript_consequences": [
-      {
-        "protein_end": 434,
-        "codons": "tTc/tCc",
-        "transcript_id": "ENST00000367698",
-        "sift_prediction": "deleterious",
-        "trembl": ["A0A024R944"],
-        "cds_end": 1301,
-        "polyphen_score": 0.998,
-        "swissprot": ["P01008"],
-        "cds_start": 1301,
-        "polyphen_prediction": "probably_damaging",
-        "strand": -1,
-        "gene_symbol": "SERPINC1",
-        "impact": "MODERATE",
-        "variant_allele": "G",
-        "sift_score": 0,
-        "biotype": "protein_coding",
-        "protein_start": 434,
-        "consequence_terms": ["missense_variant"],
-        "gene_id": "ENSG00000117601",
-        "cdna_start": 1420,
-        "gene_symbol_source": "HGNC",
-        "amino_acids": "F/S",
-        "uniparc": ["UPI000002C0C1"],
-        "hgnc_id": "HGNC:775",
-        "cdna_end": 1420
-      },
-      {
-        "distance": 434,
-        "impact": "MODIFIER",
-        "variant_allele": "G",
-        "transcript_id": "ENST00000367701",
-        "gene_symbol": "ZBTB37",
-        "strand": 1,
-        "consequence_terms": ["downstream_gene_variant"],
-        "biotype": "protein_coding",
-        "hgnc_id": "HGNC:28365",
-        "uniparc": ["UPI0000203C09"],
-        "gene_id": "ENSG00000185278",
-        "swissprot": ["Q5TC79"],
-        "gene_symbol_source": "HGNC"
-      },
-      {
-        "polyphen_score": 0.999,
-        "cds_end": 686,
-        "trembl": ["Q8TCE1"],
-        "transcript_id": "ENST00000617423",
-        "sift_prediction": "deleterious",
-        "codons": "tTc/tCc",
-        "protein_end": 229,
-        "cds_start": 686,
-        "variant_allele": "G",
-        "impact": "MODERATE",
-        "gene_symbol": "SERPINC1",
-        "strand": -1,
-        "polyphen_prediction": "probably_damaging",
-        "cdna_end": 805,
-        "uniparc": ["UPI00000725AD"],
-        "hgnc_id": "HGNC:775",
-        "gene_symbol_source": "HGNC",
-        "amino_acids": "F/S",
-        "gene_id": "ENSG00000117601",
-        "cdna_start": 805,
-        "consequence_terms": ["missense_variant"],
-        "protein_start": 229,
-        "sift_score": 0,
-        "biotype": "protein_coding"
-      }
-    ],
-    "most_severe_consequence": "missense_variant",
-    "assembly_name": "GRCh38",
-    "seq_region_name": "1",
-    "colocated_variants": [
-      {
-        "start": 173903983,
-        "seq_region_name": "1",
-        "end": 173903983,
-        "id": "CM910060",
-        "allele_string": "HGMD_MUTATION",
-        "strand": 1,
-        "phenotype_or_disease": 1
-      },
-      {
-        "seq_region_name": "1",
-        "id": "CM910061",
-        "end": 173903983,
-        "allele_string": "HGMD_MUTATION",
-        "phenotype_or_disease": 1,
-        "strand": 1,
-        "start": 173903983
-      }
-    ],
-    "input": "1 173903983 . A G . hgmdAll; hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1301T>C;PROT=NP_000479.1%3Ap.F434S;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.86;"
-  },
-  {
-    "vcfLine": "1\t173903987\t.\tT\tA\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1297A>T;PROT=NP_000479.1%3Ap.T433S;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.11; ",
-    "chrom": "1",
-    "pos": 173903987,
-    "id": ".",
-    "ref": "T",
-    "alt": "A",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1297A>T" },
-      { "PROT": "NP_000479.1%3Ap.T433S" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.11" }
-    ],
     "end": 173903987,
+    "id": ".",
     "transcript_consequences": [
       {
         "biotype": "protein_coding",
@@ -763,43 +652,8 @@
     ]
   },
   {
-    "vcfLine": "1\t173903988\t.\tC\tCAG\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1295_1296insCT;PROT=NP_000479.1%3Ap.(Thr433*);PHEN=\"Antithrombin_deficiency\"; ",
-    "chrom": "1",
-    "pos": 173903988,
-    "id": ".",
-    "ref": "C",
-    "alt": "CAG",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1295_1296insCT" },
-      { "PROT": "NP_000479.1%3Ap.(Thr433*)" },
-      { "PHEN": "Antithrombin_deficiency" }
-    ]
-  },
-  {
-    "vcfLine": "1\t173903989\t.\tA\tAC\t.\thgmdAll;\thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1294dupG;PROT=NP_000479.1%3Ap.(Val432Glyfs*33);PHEN=\"Antithrombin_deficiency\"; ",
-    "chrom": "1",
-    "pos": 173903989,
-    "id": ".",
-    "ref": "A",
-    "alt": "AC",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1294dupG" },
-      { "PROT": "NP_000479.1%3Ap.(Val432Glyfs*33)" },
-      { "PHEN": "Antithrombin_deficiency" }
-    ],
     "end": 173903988,
+    "id": ".",
     "transcript_consequences": [
       {
         "impact": "HIGH",
@@ -891,24 +745,88 @@
     "start": 173903989
   },
   {
-    "vcfLine": "1\t173903996\t.\tT\tC\t.\thgmdAll;\thgmdAll:CLASS=DM?;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1288A>G;PROT=NP_000479.1%3Ap.N430D;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.19; ",
-    "chrom": "1",
-    "pos": 173903996,
-    "id": ".",
-    "ref": "T",
-    "alt": "C",
-    "qual": ".",
-    "filter": "hgmdAll;",
-    "info": [
-      { "hgmdAll:CLASS": "DM?" },
-      { "MUT": "ALT" },
-      { "GENE": "SERPINC1" },
-      { "STRAND": "-" },
-      { "DNA": "NM_000488.3%3Ac.1288A>G" },
-      { "PROT": "NP_000479.1%3Ap.N430D" },
-      { "PHEN": "Antithrombin_deficiency" },
-      { "RANKSCORE": "0.19" }
+    "input": "1 173903989 . A AC . hgmdAll; hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1294dupG;PROT=NP_000479.1%3Ap.(Val432Glyfs*33);PHEN=\"Antithrombin_deficiency\";",
+    "assembly_name": "GRCh38",
+    "most_severe_consequence": "frameshift_variant",
+    "seq_region_name": "1",
+    "transcript_consequences": [
+      {
+        "cds_end": 1295,
+        "trembl": ["A0A024R944"],
+        "transcript_id": "ENST00000367698",
+        "codons": "gtg/gGtg",
+        "protein_end": 432,
+        "cds_start": 1294,
+        "swissprot": ["P01008"],
+        "variant_allele": "C",
+        "impact": "HIGH",
+        "strand": -1,
+        "gene_symbol": "SERPINC1",
+        "cdna_end": 1414,
+        "hgnc_id": "HGNC:775",
+        "uniparc": ["UPI000002C0C1"],
+        "gene_symbol_source": "HGNC",
+        "amino_acids": "V/GX",
+        "cdna_start": 1413,
+        "gene_id": "ENSG00000117601",
+        "protein_start": 432,
+        "consequence_terms": ["frameshift_variant"],
+        "biotype": "protein_coding"
+      },
+      {
+        "distance": 440,
+        "impact": "MODIFIER",
+        "variant_allele": "C",
+        "strand": 1,
+        "gene_symbol": "ZBTB37",
+        "transcript_id": "ENST00000367701",
+        "consequence_terms": ["downstream_gene_variant"],
+        "biotype": "protein_coding",
+        "uniparc": ["UPI0000203C09"],
+        "hgnc_id": "HGNC:28365",
+        "gene_id": "ENSG00000185278",
+        "gene_symbol_source": "HGNC",
+        "swissprot": ["Q5TC79"]
+      },
+      {
+        "protein_end": 227,
+        "codons": "gtg/gGtg",
+        "trembl": ["Q8TCE1"],
+        "cds_end": 680,
+        "transcript_id": "ENST00000617423",
+        "cds_start": 679,
+        "impact": "HIGH",
+        "variant_allele": "C",
+        "strand": -1,
+        "gene_symbol": "SERPINC1",
+        "consequence_terms": ["frameshift_variant"],
+        "protein_start": 227,
+        "biotype": "protein_coding",
+        "uniparc": ["UPI00000725AD"],
+        "hgnc_id": "HGNC:775",
+        "cdna_end": 799,
+        "cdna_start": 798,
+        "gene_id": "ENSG00000117601",
+        "gene_symbol_source": "HGNC",
+        "amino_acids": "V/GX"
+      }
     ],
+    "id": ".",
+    "end": 173903989,
+    "regulatory_feature_consequences": [
+      {
+        "impact": "MODIFIER",
+        "regulatory_feature_id": "ENSR00000377682",
+        "variant_allele": "C",
+        "consequence_terms": ["regulatory_region_variant"],
+        "biotype": "enhancer"
+      }
+    ],
+    "allele_string": "-/C",
+    "start": 173903990,
+    "strand": 1
+  },
+  {
     "input": "1 173903996 . T C . hgmdAll; hgmdAll:CLASS=DM?;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1288A>G;PROT=NP_000479.1%3Ap.N430D;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.19;",
     "seq_region_name": "1",
     "most_severe_consequence": "missense_variant",
@@ -994,6 +912,7 @@
         "cds_start": 673
       }
     ],
+    "id": ".",
     "end": 173903996,
     "start": 173903996,
     "allele_string": "T/C",
@@ -1009,35 +928,7 @@
     "strand": 1
   },
   {
-    "vcfLine": "1\t173904007\t.\tG\tA\t.\tClinVarAll;hgmdAll;\tClinVarAll:ALLELEID=33049;CLNDISDB=Human_Phenotype_Ontology:HP:0001976,MONDO:MONDO:0013144,MedGen:C0272375,OMIM:613118,Orphanet:ORPHA82,SNOMED_CT:36351005;CLNDN=Antithrombin_III_deficiency;CLNHGVS=NC_000001.11:g.173904007G>A;CLNREVSTAT=no_assertion_criteria_provided;CLNSIG=Pathogenic;CLNVC=single_nucleotide_variant;CLNVCSO=SO:0001483;CLNVI=OMIM_Allelic_Variant:107300.0011|UniProtKB_(protein):P01008#VAR_007077;GENEINFO=SERPINC1:462;MC=SO:0001583|missense_variant;ORIGIN=1;RS=121909550; \thgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1277C>T;PROT=NP_000479.1%3Ap.S426L;DB=rs121909550;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.77; ",
-    "chrom": "1",
-    "pos": 173904007,
     "id": ".",
-    "ref": "G",
-    "alt": "A",
-    "qual": ".",
-    "filter": "ClinVarAll;hgmdAll;",
-    "info": [
-      { "ClinVarAll:ALLELEID": "33049" },
-      {
-        "CLNDISDB": "Human_Phenotype_Ontology:HP:0001976,MONDO:MONDO:0013144,MedGen:C0272375,OMIM:613118,Orphanet:ORPHA82,SNOMED_CT:36351005"
-      },
-      { "CLNDN": "Antithrombin_III_deficiency" },
-      { "CLNHGVS": "NC_000001.11:g.173904007G>A" },
-      { "CLNREVSTAT": "no_assertion_criteria_provided" },
-      { "CLNSIG": "Pathogenic" },
-      { "CLNVC": "single_nucleotide_variant" },
-      { "CLNVCSO": "SO:0001483" },
-      {
-        "CLNVI": "OMIM_Allelic_Variant:107300.0011|UniProtKB_(protein):P01008#VAR_007077"
-      },
-      { "GENEINFO": "SERPINC1:462" },
-      { "MC": "SO:0001583|missense_variant" },
-      { "ORIGIN": "1" },
-      { "RS": "121909550" }
-    ],
-    "format": "hgmdAll:CLASS=DM;MUT=ALT;GENE=SERPINC1;STRAND=-;DNA=NM_000488.3%3Ac.1277C>T;PROT=NP_000479.1%3Ap.S426L;DB=rs121909550;PHEN=\"Antithrombin_deficiency\";RANKSCORE=0.77; ",
-    "sampleData": [],
     "transcript_consequences": [
       {
         "impact": "MODERATE",
@@ -1122,7 +1013,9 @@
       },
       {
         "start": 173904007,
-        "var_synonyms": { "COSMIC": ["COSM76381"] },
+        "var_synonyms": {
+          "COSMIC": ["COSM76381"]
+        },
         "allele_string": "COSMIC_MUTATION",
         "phenotype_or_disease": 1,
         "strand": 1,

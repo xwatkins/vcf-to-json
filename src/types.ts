@@ -92,6 +92,7 @@ export interface Name {
 }
 
 export interface VCFJSON {
+  vcfLine: string;
   chrom: string;
   pos: number;
   id?: string;
