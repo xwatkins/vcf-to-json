@@ -16,11 +16,13 @@ const fetchVEP = async (vepInput: string[]) => {
         },
       }
     )
-    .catch((e) => console.error(e.response));
+    .catch((e) => {
+      throw new Error(`Error loading VEP data: ${e}`);
+    });
   if (response) {
     return new Map(
       response.data.map((vepLine) => [
-        `${vepLine.strand}:${vepLine.start}`,
+        `${vepLine.seq_region_name}:${vepLine.start}`,
         vepLine,
       ])
     );
@@ -109,7 +111,7 @@ export const vcfToJSON = async (vcf: string, options?: { runVEP?: string }) => {
         ...row,
         ...VEPData.get(`${row.chrom}:${row.pos}`),
       }));
-    } // TODO throw error
+    } else throw new Error("Could not load VEP data");
   }
   return jsonArray;
 };
