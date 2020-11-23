@@ -24,13 +24,7 @@ export interface ColocatedVariant {
   clin_sig?: string[];
   pubmed?: number[];
   clin_sig_allele?: string;
-  var_synonyms?: VarSynonyms;
-}
-
-export interface VarSynonyms {
-  Uniprot: string[];
-  OMIM: number[];
-  ClinVar: string[];
+  var_synonyms?: (string | number)[];
 }
 
 export interface RegulatoryFeatureConsequence {
