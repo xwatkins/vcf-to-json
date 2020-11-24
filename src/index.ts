@@ -102,15 +102,24 @@ const readLines = async (fileContents: string) => {
   return jsonArray;
 };
 
-export const vcfToJSON = async (vcf: string, options?: { runVEP?: string }) => {
+export const vcfToJSON = async (
+  vcf: string,
+  options?: { runVEP?: boolean }
+) => {
   const jsonArray = await readLines(vcf);
   if (options?.runVEP) {
     const VEPData = await fetchVEP(jsonArray.map(({ vcfLine }) => vcfLine));
     if (VEPData) {
-      return jsonArray.map((row) => ({
-        ...row,
-        ...VEPData.get(`${row.chrom}:${row.pos}`),
-      }));
+      return jsonArray.map((row) => {
+        const vep = VEPData.get(`${row.chrom}:${row.pos}`);
+        // TODO notify if not found
+        return vep
+          ? {
+              ...row,
+              vep: vep,
+            }
+          : row;
+      });
     } else throw new Error("Could not load VEP data");
   }
   return jsonArray;
