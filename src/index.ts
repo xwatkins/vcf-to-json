@@ -50,7 +50,7 @@ const parseInfo = (info?: string) => {
   );
 };
 
-const readLines = async (fileContents: string) => {
+const readLines = (fileContents: string) => {
   const jsonArray = [];
 
   const rl = fileContents.split(/\r?\n/g);
