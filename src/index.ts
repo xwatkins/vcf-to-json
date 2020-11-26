@@ -1,59 +1,33 @@
 import axios from "axios";
-import { BeginEnd, Coordinates, GenomicLocation, VCFJSON } from "./types";
+import { VCFJSON } from "./types";
+import { Vep } from "./VEPTypes";
 
-const fetchMappings = async (accession: string) => {
-  const url = `https://www.ebi.ac.uk/proteins/api/coordinates/${accession}`;
-  const response = await axios.get<Coordinates>(url, {
-    headers: { Accept: "application/json" },
-  });
-  // TODO handle error
-  // TODO handle multiple gnCoordinate
-  return response.data.gnCoordinate[0].genomicLocation;
-};
-
-const getProteinPositions = (
-  genomeLocation: number,
-  genomicLocation: GenomicLocation
-) => {
-  const { exon, reverseStrand } = genomicLocation;
-  let found = false;
-  let offset = 0;
-
-  let begin = BeginEnd.BEGIN;
-  let end = BeginEnd.END;
-
-  if (reverseStrand) {
-    begin = BeginEnd.END;
-    end = BeginEnd.BEGIN;
+const fetchVEP = async (vepInput: string[]) => {
+  const url = `https://rest.ensembl.org/vep/homo_sapiens/region?uniprot=true`;
+  const response = await axios
+    .post<Vep[]>(
+      url,
+      {
+        variants: vepInput,
+      },
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    )
+    .catch((e) => {
+      throw new Error(`Error loading VEP data: ${e}`);
+    });
+  if (response) {
+    return new Map(
+      response.data.map((vepLine) => [
+        `${vepLine.seq_region_name}:${vepLine.start}`,
+        vepLine,
+      ])
+    );
   }
-
-  // TODO make sure exons are ordered correctly
-  for (const currentItem of exon) {
-    // Further exon
-    if (genomeLocation > currentItem.genomeLocation[end].position) {
-      offset +=
-        currentItem.genomeLocation[begin].position -
-        currentItem.genomeLocation[end].position -
-        1;
-    }
-    // Current exon
-    else if (
-      currentItem.genomeLocation[begin].position <= genomeLocation &&
-      currentItem.genomeLocation[end].position >= genomeLocation
-    ) {
-      offset += currentItem.genomeLocation[begin].position - 1;
-      // exit from loop early
-      found = true;
-      break;
-    }
-  }
-
-  if (offset === 0 || !found) {
-    return null;
-  }
-  // Take the rounded up value
-  const protValue = Math.ceil((genomeLocation - offset) / 3);
-  return protValue;
+  return null;
 };
 
 const parseInfo = (info?: string) => {
@@ -93,6 +67,7 @@ const readLines = (fileContents: string) => {
      * */
     const columns = line.split(/\t/g);
     const rowJSON: VCFJSON = {
+      vcfLine: line,
       chrom: columns[0],
       pos: parseInt(columns[1]),
     };
@@ -129,17 +104,23 @@ const readLines = (fileContents: string) => {
 
 export const vcfToJSON = async (
   vcf: string,
-  options: { accession?: string }
+  options?: { runVEP?: boolean }
 ) => {
-  const { accession } = options;
-  const jsonArray = readLines(vcf);
-  let genomicLocation: GenomicLocation;
-  if (accession) {
-    genomicLocation = await fetchMappings(accession);
+  const jsonArray = await readLines(vcf);
+  if (options?.runVEP) {
+    const VEPData = await fetchVEP(jsonArray.map(({ vcfLine }) => vcfLine));
+    if (VEPData) {
+      return jsonArray.map((row) => {
+        const vep = VEPData.get(`${row.chrom}:${row.pos}`);
+        // TODO notify if not found
+        return vep
+          ? {
+              ...row,
+              vep: vep,
+            }
+          : row;
+      });
+    } else throw new Error("Could not load VEP data");
   }
-  return jsonArray.map((row) => ({
-    ...row,
-    proteinPos:
-      genomicLocation && getProteinPositions(row.pos, genomicLocation),
-  }));
+  return jsonArray;
 };

@@ -1,3 +1,5 @@
+import { Vep } from "./VEPTypes";
+
 export interface Coordinates {
   accession: string;
   name: string;
@@ -92,6 +94,7 @@ export interface Name {
 }
 
 export interface VCFJSON {
+  vcfLine: string;
   chrom: string;
   pos: number;
   id?: string;
@@ -102,4 +105,5 @@ export interface VCFJSON {
   info?: ({ [x: string]: string } | null)[] | null;
   format?: string;
   sampleData?: string[];
+  vep?: Vep;
 }
