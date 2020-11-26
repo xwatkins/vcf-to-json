@@ -1,6 +1,6 @@
 {
   "name": "vcftojson",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A simple parser to convert VCF files to JSON",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
