@@ -27,5 +27,5 @@ const fileContent = await fs.readFileSync(
   { encoding: "utf-8" } //if you don't provide this it will come as a Stream
 );
 
-const json = await index.vcfToJSON(fileContent);
+const json = await vcfToJSON(fileContent);
 ```
